@@ -39,7 +39,7 @@ function or predictive distribution for the data.
 
 That's a bunch of generalities! Let's get specific.
 According to Binney \& Tremaine \equationname~(4.271) the one-dimensional vertical
-Jeans equation in a slab (normal to the $z$ direction) is:
+Jeans Equation in a slab (normal to the $z$ direction) is:
 \begin{equation}
 \frac{\partial(\nu\,\overline{v_z^2})}{\partial z} + \nu\,\frac{\partial\Phi}{\partial z} = 0
 \quad ,
@@ -52,5 +52,20 @@ and all quantities are a function of $z$ only.
 This is a remarkable equation, and increidibly constraining!
 You can use it to turn velocity measurements into potential inferences.
 But how, exactly?
+
+Well, the potential derivative looks like a derivative of a second
+moment of the velocity data.
+Cool.
+Or the mass density (which is often the goal) looks like a second
+derivative of a second moment of the velocity data.
+Cool.
+Or is it cool?
+Most people in data science would tell you that a second moment of
+your data is a lot less well constrained than most first moments.
+And they would tell you that you don't really want to be taking
+derivatives of your data, and certainly not second derivatives.
+But let's proceed for a bit just to see what we get from this.
+
+HOGG...
 
 \end{document}

@@ -1,0 +1,56 @@
+\documentclass[12pt,letterpaper]{article}
+
+\newcommand{\equationname}{equation}
+
+\begin{document}
+
+The Jeans Equations are remarkable: They relate the second moments of
+velocities (as a function of position) to the gravitaitonal potential
+and the density of the tracer particles.
+And they are provably correct under any distribution function.
+That is, they rely on having a well-mixed set of tracer particles,
+and knowing things about the distribution of those tracers in position space.
+But once those things are true---the tracers are well mixed and have a known
+distribution in position space---the Jeans equation tells you how the second
+moments of the velocities of those particles are related to the potential.
+And that doesn't depend on the distribution function!
+That sounds magical!
+Can't we use the Jeans equations to turn velocity measurements into
+gravitational-potential inferences and learn about the potential without
+making any assumptions whatsoever about the distribution function in
+actions or orbits?
+
+Of course the Jeans Equations are \emph{equations}, and inferences require
+some inferential mechanism.
+How do we turn the Jeans Equations into inferences?
+It turns out that we have a lot of \emph{choices} when we do that!
+And those choices are material: They will be differntly appropriate in
+different situations.
+
+Furthermore, since the Equations give you relationships between velocity moments
+and potentials, they don't imply, in any sense, a \emph{generative model}.
+That is, the Jeans Equations don't imply any kind of likelihood function or
+probability for the data given parameters.
+Of course they don't: Their very magic is their independence from any particular
+distribution function.
+That is, the magic that makes the Jeans Equations independent of distribution
+function makes the Jeans equations useless for building any kind of likelihood
+function or predictive distribution for the data.
+
+That's a bunch of generalities! Let's get specific.
+According to Binney \& Tremaine \equationname~(4.271) the one-dimensional vertical
+Jeans equation in a slab (normal to the $z$ direction) is:
+\begin{equation}
+\frac{\partial(\nu\,\overline{v_z^2})}{\partial z} + \nu\,\frac{\partial\Phi}{\partial z} = 0
+\quad ,
+\end{equation}
+where
+$\nu$ is the number density of tracers,
+$\overline{v_z^2}$ is the mean of the square of the $z$-direction velocity of those tracers,
+$\Phi$ is the gravitational potential,
+and all quantities are a function of $z$ only.
+This is a remarkable equation, and increidibly constraining!
+You can use it to turn velocity measurements into potential inferences.
+But how, exactly?
+
+\end{document}
